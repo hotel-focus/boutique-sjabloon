@@ -1,0 +1,76 @@
+.title {
+    background-color: #110e99;
+    margin: 10px;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 20px 5px 20px;
+}
+
+body {
+    margin: 0px;
+}
+
+.containertitle {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #e3590a;
+    padding-bottom: 10px;
+}
+
+nav {
+    margin: 0px;
+    background-color: #e3590a;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#btn {
+    margin: 0px;
+    background-color: #e3590a;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+#btn:hover {
+    background-color: #c64e0a;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+#tab {
+    margin: 0px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #c64e0a;
+}
+
+.tab {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#tab:hover {
+    background-color: #af450a;
+}
+
+.tv {
+    grid-column: 0;
+    grid-row: 2;
+}
+
+.ontbijt {
+    grid-column: 0;
+    grid-row: 1;
+}
+
+.park {
+    margin-left: 10px;
+}
